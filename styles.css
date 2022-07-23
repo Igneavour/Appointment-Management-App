@@ -121,7 +121,7 @@ hr {
 }
 
 /* Services section of the home page */
-.services {
+.services, ol {
   clear: both;
   position: relative;
   margin-left: 6%;
