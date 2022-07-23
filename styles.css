@@ -133,3 +133,34 @@ footer {
   clear: both;
   position: relative;
 }
+
+/* new/existing user home page styling */
+
+/* styling from codepen, I have modified the code (https://codepen.io/MattWindle/pen/perZRG?editors=1100) */
+.container {
+  box-sizing: border-box;
+  margin: 20px auto;
+  width: 70%;
+  height: 400px;
+  background-color: #fff;
+  display: grid;
+  grid-template-columns: 200px 200px;
+  grid-row: auto auto;
+  grid-column-gap: 20%;
+  grid-row-gap: 10%;
+}
+.box {
+    background-color: #333;
+    width: 100%;
+    padding: 20px;
+    border-radius: 10px;
+    color: #fff;
+    display: flex;
+    font-size: 20px;
+    font-family: sans-serif;
+  }
+
+.box a {
+  text-decoration: none;
+  color: white;
+}
