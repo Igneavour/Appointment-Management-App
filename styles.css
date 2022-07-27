@@ -1,0 +1,305 @@
+.float-container {
+  border: 3px solid #fff;
+  padding: 20px;
+}
+
+.float-child {
+  width: 40%;
+  float: left;
+  padding: 20px;
+  margin: 10px;
+}
+
+.right-section {
+  border-radius: 25px;
+  padding: 0 10% 5%;
+  border: 2px solid;
+  line-height: 2;
+}
+
+/* Modal styling for home page from w3schools (link: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_delete_modal) */
+/* Set a style for all buttons */
+button, input[type=submit] {
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 1;
+}
+
+/* Float cancel and delete buttons and add an equal width */
+.cancelbtn, .deletebtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add a color to the cancel button */
+.cancelbtn {
+  background-color: #ccc;
+  color: black;
+}
+
+/* Add a color to the delete button */
+.deletebtn {
+  background-color: #f44336;
+}
+
+/* Add padding and center-align text to the container */
+.container {
+  padding: 16px;
+  text-align: center;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: #474e5d;
+  padding-top: 50px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto;
+  /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%;
+  /* Could be more or less, depending on screen size */
+}
+
+/* Style the horizontal ruler */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* The Modal Close Button (x) */
+.close {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+  color: #f44336;
+  cursor: pointer;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and delete button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .deletebtn {
+    width: 100%;
+  }
+}
+
+/* Services section of the home page */
+.services, ol {
+  clear: both;
+  position: relative;
+  margin-left: 6%;
+}
+
+footer {
+  margin-top: 10%;
+  text-align: center;
+  clear: both;
+  position: relative;
+}
+
+/* new/existing user home page styling */
+
+/* styling from codepen, I have modified the code (https://codepen.io/MattWindle/pen/perZRG?editors=1100) */
+.container {
+  box-sizing: border-box;
+  margin: 20px auto;
+  width: 70%;
+  height: 400px;
+  background-color: #fff;
+  display: grid;
+  grid-template-columns: 200px 200px;
+  grid-row: auto auto;
+  grid-column-gap: 20%;
+  grid-row-gap: 10%;
+}
+.box {
+    background-color: #333;
+    width: 100%;
+    padding: 20px;
+    border-radius: 10px;
+    color: #fff;
+    display: flex;
+    font-size: 20px;
+    font-family: sans-serif;
+  }
+
+.box a {
+  text-decoration: none;
+  color: white;
+}
+
+/*
+//////////////////////////////////////
+// appointment booking page styling //
+//////////////////////////////////////
+*/
+
+.calendar-form {
+  overflow: auto;
+  display:flex;
+  justify-content:space-evenly;
+}
+
+#appointment-form-section {
+  overflow:auto;
+  width:fit-content;
+}
+
+#calendar {
+  width: fit-content;
+  margin-top: 30px;
+}
+
+.calendar-legend h2 {
+  font-family: Creepster;
+  font-size: 50px;
+  margin: 0;
+}
+
+.instructions p {
+  text-align: center;
+}
+
+#month-name {
+  margin: 0 auto;
+  margin-bottom: 3%;
+  text-align: center;
+  width: 720px;
+  margin: auto;
+  padding-bottom: 3%;
+  padding-top: 3%;
+  background: #a34869;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-style: solid;
+  border-color: #a34869;
+}
+
+#month-name b {
+  color: white;
+  font-family: 'Arvo';
+  font-size: 25px;
+}
+
+#days {
+  width: 700px;
+  text-align: center;
+  margin: 0 auto;
+  background-color: black;
+  color: #A34869;
+  border-radius: 10px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  padding: 10px;
+  background: #c9c9c9;
+  margin-bottom: 18px;
+  border-style: solid;
+  border-color: #a34869;
+}
+
+.day {
+  border-style: solid;
+  border-color: #FFFFFF;
+  border-width: thin;
+}
+
+.day p {
+  border-width: thin;
+  margin-bottom: 6px;
+}
+
+.day-info {
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  margin: auto;
+  margin-bottom: 7px;
+  background: green;
+}
+
+.day-info.ff {
+  background: orange;
+}
+
+.day-info.so {
+  background: red;
+}
+
+.day:hover {
+  background-color: #A34869;
+  ;
+  color: #FFFF00;
+  border-radius: 10%;
+}
+
+.day:active {
+  background-color: #A34869;
+  ;
+  color: #FFFF00;
+  border-radius: 10%;
+}
+
+.weekday {
+  height: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.weekday p {
+  margin: 0;
+}
+
+.book-cancel-buttons {
+  display:flex;
+  justify-content: space-evenly;
+}
+
+.book-cancel-buttons > button {
+  width:fit-content;
+  border: 2px solid black;
+  background-color: white;
+}
+
+#appointment-list > table, th, td {
+  border: 1px solid black;
+}
