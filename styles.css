@@ -164,3 +164,145 @@ footer {
   text-decoration: none;
   color: white;
 }
+<<<<<<< HEAD
+=======
+
+/*
+//////////////////////////////////////
+// appointment booking page styling //
+//////////////////////////////////////
+*/
+
+.calendar-form {
+  overflow: auto;
+  display:flex;
+  justify-content:space-evenly;
+}
+
+#appointment-form-section {
+  overflow:auto;
+  width:fit-content;
+}
+
+#calendar {
+  width: fit-content;
+  margin-top: 30px;
+}
+
+.calendar-legend h2 {
+  font-family: Creepster;
+  font-size: 50px;
+  margin: 0;
+}
+
+.instructions p {
+  text-align: center;
+}
+
+#month-name {
+  margin: 0 auto;
+  margin-bottom: 3%;
+  text-align: center;
+  width: 720px;
+  margin: auto;
+  padding-bottom: 3%;
+  padding-top: 3%;
+  background: #a34869;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-style: solid;
+  border-color: #a34869;
+}
+
+#month-name b {
+  color: white;
+  font-family: 'Arvo';
+  font-size: 25px;
+}
+
+#days {
+  width: 700px;
+  text-align: center;
+  margin: 0 auto;
+  background-color: black;
+  color: #A34869;
+  border-radius: 10px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  padding: 10px;
+  background: #c9c9c9;
+  margin-bottom: 18px;
+  border-style: solid;
+  border-color: #a34869;
+}
+
+.day {
+  border-style: solid;
+  border-color: #FFFFFF;
+  border-width: thin;
+}
+
+.day p {
+  border-width: thin;
+  margin-bottom: 6px;
+}
+
+.day-info {
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  margin: auto;
+  margin-bottom: 7px;
+  background: green;
+}
+
+.day-info.ff {
+  background: orange;
+}
+
+.day-info.so {
+  background: red;
+}
+
+.day:hover {
+  background-color: #A34869;
+  ;
+  color: #FFFF00;
+  border-radius: 10%;
+}
+
+.day:active {
+  background-color: #A34869;
+  ;
+  color: #FFFF00;
+  border-radius: 10%;
+}
+
+.weekday {
+  height: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.weekday p {
+  margin: 0;
+}
+
+.book-cancel-buttons {
+  display:flex;
+  justify-content: space-evenly;
+}
+
+.book-cancel-buttons > button {
+  width:fit-content;
+  border: 2px solid black;
+  background-color: white;
+}
+
+#appointment-list > table, th, td {
+  border: 1px solid black;
+}
+>>>>>>> aef30c3b5d61ac89554ea6f440c8a78a78c612f1
