@@ -164,8 +164,6 @@ footer {
   text-decoration: none;
   color: white;
 }
-<<<<<<< HEAD
-=======
 
 /*
 //////////////////////////////////////
@@ -302,7 +300,49 @@ footer {
   background-color: white;
 }
 
-#appointment-list > table, th, td {
+/*
+//////////////////////////////////////////////////
+///// Appointment Confirmation Page Styling /////
+/////////////////////////////////////////////////
+*/
+
+.appointment-list th, .appointment-list td {
   border: 1px solid black;
+  padding: 5px;
 }
->>>>>>> aef30c3b5d61ac89554ea6f440c8a78a78c612f1
+
+table.appointment-list {
+  border-collapse:collapse;
+}
+
+#update-cancel-buttons {
+  display:flex;
+  justify-content: space-evenly;
+}
+
+#update-cancel-buttons > button {
+  width:fit-content;
+  background-color: gray;
+}
+
+/*
+///////////////////////////////////////////////
+///// Reschedule Appointment Page Styling//////
+///////////////////////////////////////////////
+*/
+
+/*
+///////////////////////////////////////////////
+///// Reschedule Confirmation Page Styling/////
+///////////////////////////////////////////////
+*/
+
+#view-appointments-button {
+  display:flex;
+  justify-content: space-evenly;
+}
+
+#view-appointments-button > button {
+  width:fit-content;
+  background-color: gray;
+}
