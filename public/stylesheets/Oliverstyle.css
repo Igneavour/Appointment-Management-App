@@ -19,3 +19,57 @@ button{
     position:relative;
     margin-top: 20px;
 }
+h1 {
+    text-align: center;
+    border:1px red solid;
+    font-size: 30px;
+}
+ul{
+    padding-left: 30px;
+    text-align: left;
+}
+button{
+    text-align: center;
+    border-radius: 10px;
+    font-size: 30px;
+    position: relative;
+    display: block;
+    margin: 30px auto;
+}
+.gender{
+    position:relative;
+    left: 500px;
+    top: -135px;
+}
+.number{
+    position: relative;
+    margin-top: 20px;
+}
+.nationality{
+    position: relative;
+    left: 200px;
+    top: -25px;
+}
+.personal-info{
+    position: relative;
+    border-style: groove;
+    border-color: darkcyan;
+    border-radius: 20px;
+    padding-left: 10px;
+}
+.medical-information{
+    border-style: groove;
+    border-color: crimson;
+    border-radius: 20px;
+    position: relative;
+    padding-left: 10px;
+}
+.moreInfo{
+    position: relative;
+    padding-left: 10px;
+}
+#submit{
+    position: relative;
+    left: 45%;
+    background-color: coral;
+}
